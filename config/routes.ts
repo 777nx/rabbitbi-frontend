@@ -7,7 +7,8 @@ export default [
       { path: '/user/register', component: './User/Register' },
     ],
   },
-  { path: '/welcome', icon: 'smile', component: './Welcome', name: '欢迎页' },
+  { path: '/', redirect: '/add_chart' },
+  { path: '/add_chart', icon: 'barChart', component: './AddChart', name: '智能分析' },
   {
     path: '/admin',
     icon: 'crown',
